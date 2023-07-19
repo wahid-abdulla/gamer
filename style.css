@@ -1,7 +1,7 @@
-*{
+/**{
     margin: 0;
     padding: 0;
-}
+}*/
 
 /*shared style*/
 body{
@@ -9,3 +9,63 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/*this is nav bar section style*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   
+    
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 40px;
+   
+   
+}
+.li-style{
+    padding: 18px 24px;
+}
+.fllow-us-on{
+display: flex;
+list-style: none;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 18px 24px;
+
+
+}
+
+
+
+.span1{
+    color: #FF42A5;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+nav h3{
+    margin-right: 100px;
+}
+
+nav img{
+    margin-left: 50px;
+    
+}
+nav li a{
+    cursor: pointer;
+    color: red;
+}
+
+
