@@ -145,6 +145,7 @@ nav li a{
 }
 
 button :hover{
+    
     color: #8306f8;
    
 }
@@ -170,26 +171,52 @@ max-width: 80%;
  }
 
  
- 
 
  
-.card-tite{
-    
-    font-size: 3rem;
-    font-weight: 700;
 
-}
-.card-description{
-   
-    font-size: 1.25rem;
-    font-weight: 400;
-}
+ .funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
 
  /*hero style*/
  .hero-container{
    display: flex;
    
     
+ }
+ .playbutton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: #F948B2;
+    text-align: center;
+ }
+.img-bundlle :hover {
+opacity: 0.8s black;
+color: #F948B2;
+    
+ }
+
+ .play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .play-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.45s ease-in-out;
+    background: #0B0223;
+    cursor: pointer;
  }
 
  .hero-content{
@@ -215,34 +242,67 @@ max-width: 80%;
 
  /*btn-card-style*/
 
-
- 
+.btn-card-container{
+    margin-left: 100px;
+    padding: 20px 30px;
+}
+.btn-card-container  :hover{
+border-radius: #F948B2 1px solid;
+}
 
 
  .btn-card-subcontainer{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(5, 1fr);
-
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
    
   
  }
 .btn-card-container a{
 text-decoration: none;
-gap: 50px;
+
+}
+
+.btn-card-container :hover{
+color: #F948B2;
+}
+
+
+   
+
+.btn-card-subcontainer{
+gap: 30px;
 }
  .btn-card-subcontainer1{
-    margin-left: 100px;
-    
+gap: 30px;
+
  }
  .btn-card p{
-display: flex;
-color: #0B0223;
-align-items: center;
+
+    
+color: #545457;
+
  }
- .btn-card a img{
-display: flex;
+ .btn-card{
+background-color: #faf9f9;
+border-radius: 5px rgb(255, 255, 255) solid;
+
  }
+
+ .btn-card :hover{
+    border: #F948B2 1px solid;
+ }
+ .btn-card a  :hover{
+    border: none;
+ }
+ .btn-card a {
+display: flex;
+border-radius: 50px;
+background: #FFF;
+ }
+
+ 
 
  footer{
     margin-top: 50px;
@@ -270,8 +330,8 @@ display: flex;
  .li-1 ul{
     display: flex;
     color: #530136;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 400;
     
  }
 
